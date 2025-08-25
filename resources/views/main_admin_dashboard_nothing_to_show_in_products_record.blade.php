@@ -1,0 +1,44 @@
+@extends('main_admin_dashboard_layout')
+
+@section('title')
+<title>Product Management</title>
+@endsection
+
+@section('style')
+<style>
+    #Products{
+        /* width: 220px; */
+        border-left : 6px solid #305d72;
+        background: #B7C9E2;
+        border-radius: 4px;
+    } 
+
+    .displaying_container{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 7%;
+    }
+
+    #nothing_to_show_here_img{
+        height: 400px;
+        border-radius: 20px;
+        border: 1px solid rgba(0,0,0,.2);
+        box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    }
+</style>
+@endsection
+
+
+@section('body')
+    <div class="page-wrapper">
+        <div class="content container-fluid">
+            <!-- <div>Hello From main_admin_dashboard_nothing_to_show_in_products_record</div><br> -->
+            <div class="displaying_container">
+                <img src="{{ asset('img/nothing_to_show_here.png') }}" id="nothing_to_show_here_img" alt="nothing to show here">
+            </div>
+        </div>
+    </div>
+@endsection

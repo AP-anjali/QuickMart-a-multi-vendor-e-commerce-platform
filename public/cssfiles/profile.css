@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0; 
+    background-color: #540000;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.box{
+    height: 550px;
+    width: 480px;
+    background-color: #dbb98f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    color: #540000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box h2{
+    margin-top: -50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box p{
+    margin-left: -100px;
+}
+
+.box .name{
+    margin-left: -230px;
+}
+
+.box .button{
+    height: 40px;
+    width: 260px;
+    color: #dbb98f;
+    background-color: #540000;
+    font-weight: 600;
+    align-items: center; 
+}
+
+.box a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+.box a:hover{
+    text-decoration: underline;
+    box-shadow: 5px 5px 10px brown;
+}
+
+.profile_pic{
+    border: 3px solid #dbb98f;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 40px 0 0 40px;
+    margin-left: -200px;
+    margin-top: -240px;
+    font-size: 200px;
+    color:#dbb98f;
+}
+
+.profile_pic:hover{
+    box-shadow: 0 0 30px #dbb98f;
+    cursor: pointer;
+}

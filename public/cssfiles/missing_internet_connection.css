@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #edeff1; */
+    background: #FFF;
+}
+#missing_internet_connection_pic{
+    height: 500px;
+}
+.text_container{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.other_info_container{
+    text-align: center;
+}
+.text_container h1{
+    color: #333333;
+    margin-bottom: 10px;
+}
+.other_info_container span{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 700;
+}
+#second_line{
+    margin-top: 10px;
+}
+.other_info_container h3{
+    color: #454545;
+}
+
+#refresh_btn{
+    outline: none;
+   background: #8789ff;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s all ease;
+}
+#refresh_btn:hover{
+    background: #696cff;
+}

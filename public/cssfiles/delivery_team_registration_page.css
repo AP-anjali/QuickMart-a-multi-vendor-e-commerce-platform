@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f9;
+}
+.container{
+    width: 80%;
+    margin: 3% auto;
+    /* margin: 9px; */
+    display: flex;
+    /* height: 623px; */
+    height: 700px;
+    /* height: 565px; */
+    box-shadow: 0 12px 18px rgba(54, 176, 138, 0.005);
+    border-radius: 6px;
+    background: #FFF;
+}
+
+
+html::-webkit-scrollbar{
+    width: 0.4rem;
+    height: .5rem;
+ }
+ 
+ html::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ html::-webkit-scrollbar-thumb{
+    background-color: #696cff;
+    border-radius: 4px;
+ }
+
+.login-link{
+    background-color: #696cff;
+    /* background-image: url('bg-shapes.svg'); */
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 35%;
+    /* width: 400px; */
+    padding: 3%;
+}
+.signup-form-container{
+    width: 70%;
+    max-width: 700px;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    font-weight: 600;
+    color: #FFF;
+}
+.side-big-headning{
+    font-weight: 800;
+    color: #FFF;
+    font-size: 1.6rem;
+    margin: 25% 0 5%;
+}
+.primary-bg-text{
+    color: #eff0ff;
+    font-weight: 500;
+    text-align: center;
+}
+a.loginbtn{
+    text-decoration: none;
+    color: #FFF;
+    width: 70%;
+    font-weight: 500;
+    display: inline-block;
+    margin: 7% 15%;
+    text-align: center;
+    border: 2px solid #eff0ff;
+    border-radius: 24px;
+    padding: 3% 0;
+}
+a.loginbtn:hover{
+    color: #696cff;
+    background-color: #FFF;
+}
+.big-headning{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #696cff;
+}
+.social-media-platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-platform a{
+    color: #1a1d86;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-flex;
+    border: 1px solid #e0e3e2;
+    margin: 12%;
+    padding: 13%;
+}
+.progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0;
+    width: 100%;
+}
+.progress-bar .stage{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.progress-bar .tool-tip{
+    color: #1a1d86;
+    font-weight: 600;
+}
+.stageno{
+    margin: 6% 0;
+    padding: 2% 7%;
+    border-radius: 50%;
+    background-color: #f5f5f9;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+}
+.text-fields{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 0 2%;
+    width: 46%;
+    border-radius: 4px;
+    color: #84848d;
+}
+input{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    /* width: 400%; */
+    margin-left: 4%;
+    font-size: 1rem;
+}
+.signup-form-content{
+    width: 100%;
+    padding: 0 3%;
+}
+.text-fields.name::after{
+    content: 'Name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.email::after{
+    content: 'Email Address';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.phone_no::after{
+    content: 'Phone Number';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.address::after{
+    content: 'Address';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.gender::after{
+    content: 'Gender';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.date_of_birth::after{
+    content: 'Date Of Birth';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -120px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+#date_of_birth{
+    margin-right: -55px;
+}
+.text-fields.percentage_of_twelve::after{
+    content: 'Percentage of Twelve';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.password::after{
+    content: 'Create Password';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.confirm_password::after{
+    content: 'Password Again';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.khaskao{
+    margin-top: 10px;
+    margin-left: 170px;
+    width: 290px;
+}
+.text-fields.business_name::after{
+    content: 'Business Name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.business_type::after{
+    content: 'Business Type';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -260px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+#my_list{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+#gender{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    margin-top: 4px;
+    margin-right: 9px;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.text-fields.business_type select {
+    padding-left: 20px; 
+}
+.text-fields.business_strength::after{
+    content: 'Business Strength';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -260px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+#my_list2{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+.text-fields.business_strength select {
+    padding-left: 20px; 
+}
+.text-fields.product_category::after{
+    content: 'Product Category';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -260px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+#my_list3{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+.text-fields.product_category select {
+    padding-left: 20px; 
+}
+.text-fields.gst_number::after{
+    content: 'GST Number';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.business_description::after{
+    content: 'Business Description';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.bank_name::after{
+    content: 'Bank Name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.bank_branch::after{
+    content: 'Bank Branch';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.bank_ifsc_code::after{
+    content: 'IFSC Code';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.bank_micr_code::after{
+    content: 'MICR code';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.account_holder_name::after{
+    content: 'Account Holder Name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.account_number::after{
+    content: 'Account Number';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.account_type::after{
+    content: 'Account Type';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -270px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+#my_list4{
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #84848d;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+.text-fields.account_type select {
+    padding-left: 5px; 
+}
+.file_uploader{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 14px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #84848d;
+    padding: 2%;
+}
+
+.file_uploader_heading{
+    background-color: #FFF;
+    position: relative;
+    left: -280px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+.file_uploader_headingotherdetails{
+    background-color: #FFF;
+    position: relative;
+    display: inline-block;
+    left: 180px;
+    padding: 0 10px;
+    color: #696cff;
+    top: -185px;
+    white-space: nowrap;
+}
+
+.file_uploader_headingexperience{
+    background-color: #FFF;
+    position: relative;
+    display: inline-block;
+    left: 35px;
+    padding: 0 10px;
+    color: #696cff;
+    top: -185px;
+    white-space: nowrap;
+}
+
+.custome-text-fields{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 0 2%;
+    /* width: 46%; */
+    border-radius: 4px;
+    color: #84848d;
+}
+
+.other_educational_details{
+    margin-top: -20px;
+}
+
+
+textarea{
+    border: none;
+    outline: none;
+    background: inherit;
+    padding-top: 10px;
+    color: #84848d;
+    margin-left: 4%;
+    font-size: 1rem;
+}
+
+.file_uploaderpercentage{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #84848d;
+    padding: 2%;
+}
+
+.file_uploader_headingadgpercentage{
+    background-color: #FFF;
+    position: relative;
+    padding: 0 10px;
+    left: -280px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+.file_uploaderexperience{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #84848d;
+    padding: 2%;
+}
+
+.file_uploader_headingadgexperience{
+    background-color: #FFF;
+    position: relative;
+    padding: 0 10px;
+    left: -280px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+.file_uploaderphoto{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 14px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #84848d;
+    padding: 2%;
+}
+
+.file_uploader_headingphoto{
+    background-color: #FFF;
+    position: relative;
+    left: -280px;
+    color: #696cff;
+    padding: 0 10px;
+    top: -28px;
+    white-space: nowrap;
+}
+
+.file_uploaderaadharcard{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: -32px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #84848d;
+    padding: 2%;
+}
+
+.file_uploader_headingadgarcard{
+    background-color: #FFF;
+    position: relative;
+    padding: 0 10px;
+    left: -280px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+#proof_of_bank_account_ownership{
+    cursor: pointer;
+}
+
+.text-fields.experience_job::after{
+    content: 'Past Job';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+.text-fields.experience_job_workplace::after{
+    content: 'Work Place';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+.text-fields.experience_job_duration::after{
+    content: 'Job Duration';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -220px;
+    color: #696cff;
+    top: -28px;
+    white-space: nowrap;
+}
+
+#no_experience{
+    width: 200px;
+    position: relative;
+    bottom: 130px;
+    left: 150px;
+}
+/* ========================================================================= */
+
+/* ========================================================================= */
+.pagination-btns{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    padding: 0 4%;
+}
+.nextpage, .previouspage{
+    background-color: #8789ff;
+    color: #FFF;
+    width: 45%;
+    cursor: pointer;
+    padding: 2%;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.nextpage:hover, .previouspage:hover{
+    background-color: #696cff;
+}
+.tc-container input{
+    width: 4%;
+    margin-left: 4%;
+    accent-color: #696cff;
+}
+.tc a{
+    text-decoration: none;
+    color: #696cff;
+}
+.tc a:hover{
+    color: #1a1d86;
+}
+label.tc{
+    margin-left: 4%;
+}
+
+/* ================================= */
+.confirmation_of_computer_knowlege-container{
+    margin-top: -30px;
+}
+.confirmation_of_computer_knowlege-container input{
+    width: 4%;
+    margin-left: 4%;
+    accent-color: #696cff;
+}
+.confirmation_of_computer_knowlege a{
+    text-decoration: none;
+    color: #696cff;
+}
+.confirmation_of_computer_knowlege a:hover{
+    color: #1a1d86;
+}
+label.confirmation_of_computer_knowlege{
+    margin-left: 4%;
+}

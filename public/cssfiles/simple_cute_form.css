@@ -1,0 +1,286 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* background: rgb(130, 106, 251); */
+  background: #edeff1;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+#nested_bodyy{
+  overflow-y: auto;
+  /* overflow-y: scroll; */
+  width : 100%;
+}
+
+#nested_bodyy::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+}
+
+#nested_bodyy::-webkit-scrollbar-thumb {
+  background-color: #929292;
+  border-radius: 10px;
+}
+
+#nested_bodyy::-webkit-scrollbar-track {
+  background: rgb(130, 106, 251);
+}
+
+#nested_bodyy::-webkit-scrollbar-thumb:hover {
+  background-color: #454545;
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.2);
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container header {
+  padding: 6px;
+  /* opacity: 0.7; */
+  font-size: 1.6rem;
+  color: white;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.2);
+  background: rgb(130, 106, 251);
+  font-weight: 600;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form .input-box input{
+  margin-top: -2px;
+}
+
+#chalo_uppar{
+  margin-top: -10px;
+}
+
+
+.input-box label {
+  color: #454545;
+  /* color: #333; */
+  font-weight: 500;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+#testing{
+  width: 50%;
+  margin: 20px auto auto auto;
+}
+#file_input{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#file_input2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tc-container input{
+  margin-top: 30px;
+  accent-color: #696cff;
+}
+.tc-container{
+  text-align: center;
+}
+.tc a{
+  text-decoration: none;
+  color: #696cff;
+}
+.tc a:hover{
+  color: #1a1d86;
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  background: rgb(130, 106, 251);
+  border-radius: 8px;
+}
+.form button:hover {
+  background: #2c3e50;
+}
+
+#btn {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  background: rgb(130, 106, 251);
+  border-radius: 8px;
+}
+#btn:hover {
+  background: #2c3e50;
+}
+
+
+.msg{
+  width: 50%;
+  height: 50px;
+  color: green;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 8px 0 0 25px;
+  background: white;
+  border: 1px solid rgba(0,0,0,.2);
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#sub_duration{
+  text-align: center;
+  width: 70px;
+}
+
+#Videos_and_PDFs_access_limit_number{
+  text-align: center;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -15px;
+}
+
+#Download_Videos_and_PDFs_access_limit_number{
+  text-align: center;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -15px;
+}
+
+#Exams_access_limit_number{
+  text-align: center;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -15px;
+}
+
+#popup-btn{
+  height: 80%;
+  margin-bottom: 8px;
+  width: 30px;
+  padding-bottom: 4px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  background: rgba(0,0,0,.2);
+  margin-left: 23%;
+}
+
+#popup-btn2{
+  height: 80%;
+  margin-bottom: 8px;
+  width: 30px;
+  padding-bottom: 4px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  background: rgba(0,0,0,.2);
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+

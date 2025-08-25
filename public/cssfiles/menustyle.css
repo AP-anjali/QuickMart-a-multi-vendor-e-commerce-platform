@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #dbb98f;
+}
+
+.navbar{
+    margin-top: 15px;
+    background: #dbb98f;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 2px solid #540000;
+    box-shadow: 0 0 20px #540000;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #540000;
+    border-bottom: 2px solid #540000;
+    font-family: poppins;
+}
+
+.logo a:hover{
+    color: #540000;
+    text-shadow: 0 0 50px #540000;  
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #540000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li a:hover{
+    color: #dbb98f;
+    background-color: #540000;  
+    border: 2px solid #540000;
+    border-radius: 9px;
+    box-shadow: 0 0 20px #540000;  
+}
+
+.menu i {
+    display: inline-block;
+    width: 22px; 
+    height: 20px; 
+    border-radius: 50%; 
+    border: 1px solid #540000; 
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 390px;
+    margin: -250px 30px 20px 850px;
+    display: inline;
+}
+
+.one {
+    vertical-align: top; 
+    margin: 0 0 0 40px;
+    color: #540000;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#span2 {
+    margin: 0 0 0 80px;
+}
+
+.aadu{
+    margin-top: 200px;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#sliding-image {
+    animation: none; 
+}
+
+#sliding-image-a {
+    animation: none; 
+    height: 250px;
+    width: 220px;
+    border: 2px solid #540000;
+    border-radius: 50%;
+    padding: 0 0 30px 0;
+    margin: -400px 0 0 900px;
+}
+
+#sliding-image-b {
+    animation: none; 
+    margin-top: -350px;
+}
+
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animate-left {
+    animation: none; 
+    display: inline-block;
+}
+
+.contact{
+    margin: -300px 0 0 800px;
+}
